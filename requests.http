@@ -1,0 +1,9 @@
+# Вводим число для просчета Фибаначи после fib/[number]
+POST http://localhost:8080/api/fib/28
+
+
+###
+
+
+# Полученный id - копируем и вставляем после tasks/[id]
+GET http://localhost:8080/api/tasks/12ecce35-1896-4948-b180-80727b075412
